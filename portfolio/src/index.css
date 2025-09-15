@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  background-color: #131313;
+
+
+  cursor: url('/path/to/cursor.png'), auto;
+}
