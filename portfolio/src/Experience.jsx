@@ -35,7 +35,7 @@ const Experience = () => {
                     strings={[
                         "Developed and deployed ML models for regression, classification, clustering, and MLP-based deep learning tasks using Scikit-learn and TensorFlow; optimized performance using gradient descent and backpropagation techniques. Implemented data pipelines and preprocessing in Pandas/OpenCV/Seaborn and managed relational data using Microsoft SQL Server. Created business-oriented visualizations with Power BI to drive data-driven decision making.",
                     ]}
-                    typeSpeed={18}
+                    typeSpeed={11}
                     backSpeed={50}
                     startWhenVisible={true}
                     onComplete={() => setTypingComplete(true)}
@@ -61,7 +61,7 @@ const Experience = () => {
                     strings={[
                         "Designed and implemented game features in Unity with C#, including physics, post-processing, textures, lighting, input handling, collision, animations, and UI/UX elements. Optimized 2D/3D assets, object pooling, and shaders to enhance performance and reduce load times by 40%."
                     ]}
-                    typeSpeed={25}
+                    typeSpeed={18}
                     backSpeed={50}
                     startWhenVisible={true}
                     onComplete={() => setTypingComplete(true)}
