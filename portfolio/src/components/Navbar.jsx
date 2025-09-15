@@ -15,19 +15,19 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-15 max-w-[1240px] mx-auto px-4 text-[#1DE9B6]'>
         <h1 className='w-full text-2xl font-bold text-[#1DE9B6]'>nguyenbui.dev</h1>
         <ul className='hidden md:flex'>
-          <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2'>
+          <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2 hover:text-[#F58F7C]'>
           <FaLinkedin size={24} />
           <a href="https://www.linkedin.com/in/nguyen-bui-9355a1335/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
         </li>
-          <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2'>
+          <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2 hover:text-[#F58F7C]'>
           <FaGithub size={24} />
           <a href="https://github.com/buibaogianguyen" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </li>
-        <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2'>
+        <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2 hover:text-[#F58F7C]'>
           <FaFileAlt size={24} />
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
