@@ -7,6 +7,9 @@ import { IconHome, IconUser, IconSettings } from '@tabler/icons-react';
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { BsFolder2 } from "react-icons/bs";
 import { BackgroundLines } from './components/ui/background-lines';
+import { motion } from 'framer-motion';
+
+import StarBackground from './components/StarBackground';
 
 import About from './About';
 import Experience from './Experience';
@@ -25,7 +28,7 @@ function App() {
     useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2800);
+    }, 3300);
 
     return () => clearTimeout(timer);
   }, []);
@@ -33,44 +36,57 @@ function App() {
     return (
         <div className="relative">
             <BackgroundLines className="hidden md:block absolute inset-0 -z-10" />
+            
+
+            
 
             {loading ? (
                 <div className="flex justify-center items-center h-screen bg-[#000000] w-full">
                 <LoadingBar />
                 </div>
             ) : (
-                <div>
+
+                <>
+                
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 4, ease: "easeOut" }}
+                >
                     <Navbar />
 
-                <section id="home">
-                    <Hero />
-                </section>
+                    <StarBackground />
 
-                <div className="h-1 w-full bg-gradient-to-r from-[#F58F7C] to-[#1DE9B6]" />
+                    <section id="home">
+                        <Hero />
+                    </section>
 
-                <section id="about">
-                    <About />
-                </section>
+                    <div className="h-1 w-full bg-gradient-to-r from-[#F58F7C] to-[#1DE9B6]" />
 
-                <section id="experience">
-                    <Experience />
-                </section>
+                    <section id="about">
+                        <About />
+                    </section>
 
-                <section id="projects">
-                    <Projects />
-                </section>
+                    <section id="experience">
+                        <Experience />
+                    </section>
 
-                    <FloatingDock
-                    items={dockItems}
-                    desktopClassName="hidden md:flex fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50"
-                    mobileClassName="flex md:hidden fixed bottom-8 right-4 z-50"
-                />
-                
-                <footer className="w-full text-center py-4 mt-8 pb-50 text-sm text-gray-400">
-                © {new Date().getFullYear()} Nguyen Bui's Portfolio — UI powered by Aceternity
-               </footer>
+                    <section id="projects">
+                        <Projects />
+                    </section>
 
-                </div>
+                        <FloatingDock
+                        items={dockItems}
+                        desktopClassName="hidden md:flex fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50"
+                        mobileClassName="flex md:hidden fixed bottom-8 right-4 z-50"
+                    />
+                    
+                    <footer className="w-full text-center py-4 mt-8 pb-50 text-sm text-gray-400">
+                    © {new Date().getFullYear()} Nguyen Bui's Portfolio — UI powered by Aceternity
+                </footer>
+
+                </motion.div>
+                </>
             )}
 
             
