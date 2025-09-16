@@ -8,7 +8,7 @@ View on desktop for the full experience.
 
 ## Preview
 
-This website was created using [React.js 18.3.1](https://react.dev/), [Tailwind CSS 4.1.13](https://tailwindcss.com/), and includes components from [Aceternity UI](https://ui.aceternity.com/components).
+This website was created using [React.js 18.3.1](https://react.dev/), [Tailwind CSS 4.1.13](https://tailwindcss.com/), and includes components from [Aceternity UI](https://ui.aceternity.com/components) and [Three.js](https://threejs.org/). Deployed using [Vercel](https://vercel.com/).
 
 <p align="center">
 <img src="https://i.postimg.cc/2SjF7jt2/Thi-t-k-ch-a-c-t-n-4.png" width="1200">
