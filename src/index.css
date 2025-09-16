@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
 body {
-  background-color: #131313;
-
-
-  cursor: url('/path/to/cursor.png'), auto;
+  background: linear-gradient(135deg, #000000, #1b1b1b, #424242);
 }

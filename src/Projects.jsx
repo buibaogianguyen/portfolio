@@ -35,7 +35,7 @@ const Projects = () => {
                     strings={[
                         "ClearChat filters YouTube and Twitch messages via their APIs, classifying them as offensive or safe, and automatically applies punishments for violations."
                     ]}
-                    typeSpeed={11}
+                    typeSpeed={18}
                     backSpeed={50}
                     startWhenVisible={true}
                     onComplete={() => setCurrentStep(1)}
@@ -62,7 +62,7 @@ const Projects = () => {
                         strings={[
                             "A RESTful API for skin lesion classification using FastAPI, PyTorch, and SQLAlchemy, including model inference, preprocessing, and database storage"
                         ]}
-                        typespeed={11}
+                        typeSpeed={18}
                         backSpeed={50}
                         startWhenVisible={true}
                         onComplete={() => setCurrentStep(2)}
@@ -90,7 +90,7 @@ const Projects = () => {
                         strings={[
                             "DQN and PPO Reinforcement Learning Agents for the classic Snake Game, implemented using TensorFlow and TensorFlow Keras."
                         ]}
-                        typespeed={11}
+                        typeSpeed={18}
                         backSpeed={50}
                         startWhenVisible={true}
                         onComplete={() => setCurrentStep(3)}
@@ -118,7 +118,7 @@ const Projects = () => {
                         <ReactTyped
                         strings={[
                             "A simple Convolutional Neural Network (CNN) implementation from scratch using NumPy, without frameworks, to better understand Deep Learning models."                   ]}
-                        typespeed={11}
+                        typeSpeed={18}
                         backSpeed={50}
                         startWhenVisible={true}
                         onComplete={() => setCurrentStep(4)}
@@ -154,7 +154,7 @@ const Projects = () => {
                             "Click Here!"
                         
                         ]}
-                        typespeed={11}
+                        typeSpeed={18}
                         backSpeed={50}
                         startWhenVisible={true}
                         >

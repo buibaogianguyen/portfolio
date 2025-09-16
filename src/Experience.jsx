@@ -31,16 +31,9 @@ const Experience = () => {
                 <h1 className="text-3xl font-bold mb-4">Data Science and AI Intern 💻🤖</h1>
                 <h2 className="text-[#949494]">RikkeiSoft <span className="mx-2">|</span> April 2025 - Present</h2>
                 <div style={{ fontFamily: "'Source Code Pro', monospace" }}>
-                    <ReactTyped
-                    strings={[
-                        "Developed and deployed ML models for regression, classification, clustering, and MLP-based deep learning tasks using Scikit-learn and TensorFlow; optimized performance using gradient descent and backpropagation techniques. Implemented data pipelines and preprocessing in Pandas/OpenCV/Seaborn and managed relational data using Microsoft SQL Server. Created business-oriented visualizations with Power BI to drive data-driven decision making.",
-                    ]}
-                    typeSpeed={11}
-                    backSpeed={50}
-                    startWhenVisible={true}
-                    onComplete={() => setTypingComplete(true)}
-                    >
-                    </ReactTyped>
+                    <p>
+                        Developed and deployed ML models for regression, classification, clustering, and MLP-based deep learning tasks using Scikit-learn and TensorFlow; optimized performance using gradient descent and backpropagation techniques. Implemented data pipelines and preprocessing in Pandas/OpenCV/Seaborn and managed relational data using Microsoft SQL Server. Created business-oriented visualizations with Power BI to drive data-driven decision making.
+                    </p>
                 </div>
                     
                 </div>
@@ -57,16 +50,9 @@ const Experience = () => {
                 <h1 className="text-3xl font-bold mb-4">Software Development Intern - Game Development 👾🎮</h1>
                 <h2 className="text-[#949494]">FPT Software <span className="mx-2">|</span> June 2024 - August 2024</h2>
                 <div style={{ fontFamily: "'Source Code Pro', monospace" }}>
-                    <ReactTyped
-                    strings={[
-                        "Designed and implemented game features in Unity with C#, including physics, post-processing, textures, lighting, input handling, collision, animations, and UI/UX elements. Optimized 2D/3D assets, object pooling, and shaders to enhance performance and reduce load times by 40%."
-                    ]}
-                    typeSpeed={18}
-                    backSpeed={50}
-                    startWhenVisible={true}
-                    onComplete={() => setTypingComplete(true)}
-                    >
-                    </ReactTyped>
+                    <p>
+                        Designed and implemented game features in Unity with C#, including physics, post-processing, textures, lighting, input handling, collision, animations, and UI/UX elements. Optimized 2D/3D assets, object pooling, and shaders to enhance performance and reduce load times by 40%
+                    </p>
                 </div>
 
                 </div>

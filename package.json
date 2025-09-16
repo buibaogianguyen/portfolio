@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^5.0.0",
-    "vite": "^7.1.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@react-three/drei": "^10.6.0",
+    "@react-three/fiber": "^8.18.0",
     "@tabler/icons-react": "^3.34.1",
     "@tailwindcss/vite": "^4.1.13",
+    "@vitejs/plugin-react": "^5.0.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.12",
     "motion": "^12.23.12",
@@ -24,7 +27,9 @@
     "react-typed": "^2.0.12",
     "retro-react": "^1.4.0",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.1.13",
+    "three": "^0.180.0",
+    "vite": "^7.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
