@@ -1,12 +1,32 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimal, space-themed personal portfolio website.
 
-Currently, two official plugins are available:
+For mobile devices, heavy components have been removed for smoother running.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View on desktop for the full experience.
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This website was created using [React.js 18.3.1](https://react.dev/), [Tailwind CSS 4.1.13](https://tailwindcss.com/), and includes components from [Aceternity UI](https://ui.aceternity.com/components).
+
+<p align="center">
+<img src="https://i.postimg.cc/2SjF7jt2/Thi-t-k-ch-a-c-t-n-4.png" width="1200">
+</p>
+
+## Usage
+
+1. Clone the repo
+```cmd
+git clone https://github.com/buibaogianguyen/portfolio.git
+```
+
+2. Install dependencies
+```cmd
+npm install
+```
+
+3. Run
+```cmd
+npm run dev
+```
