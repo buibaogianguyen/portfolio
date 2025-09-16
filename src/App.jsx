@@ -63,15 +63,15 @@ function App() {
 
                     <div className="h-1 w-full bg-gradient-to-r from-[#F58F7C] to-[#1DE9B6]" />
 
-                    <section id="about">
+                    <section id="about" className="transform scale-85 md:scale-100">
                         <About />
                     </section>
 
-                    <section id="experience">
+                    <section id="experience" className="transform scale-85 md:scale-100">
                         <Experience />
                     </section>
 
-                    <section id="projects">
+                    <section id="projects" className="transform scale-85 md:scale-100">
                         <Projects />
                     </section>
 
