@@ -30,7 +30,7 @@ const Rocket = () => {
     const flipClass = scrollDirection === "up" ? "scale-y-[-1]" : "";
 
     return (
-        <div className={`fixed top-5 -left-5 md:bottom-4 md:left-4 z-10 w-32 h-32 flex items-center justify-center ${flipClass}`}>
+        <div className={`fixed top-5 -left-6 md:bottom-4 md:left-4 z-10 w-32 h-32 flex items-center justify-center ${flipClass}`}>
         <motion.img
             src="/rocket.png"
             alt="rocket"
@@ -43,10 +43,10 @@ const Rocket = () => {
         <motion.div
             className="absolute bottom-[70%] left-1/2 -translate-x-1/2 w-3 h-12 rounded-full bg-gradient-to-b from-[#fce307] via-[#e47a33] to-transparent blur-md"
             style={{
-                height: `${2 + scrollSpeed*0.3}px`,
+                height: `${2 + scrollSpeed*0.15}px`,
                 opacity: 0.8 + Math.min(scrollSpeed / 20, 0.5)
             }}
-            animate={{ opacity: [0.6, 1, 0.6], scaleY: [1, 1.1, 1] }}
+            animate={{ opacity: [0.8, 1, 0.8], scaleY: [1, 1.1, 1] }}
             transition={{ duration: 1, repeat: Infinity }}
         />
         </div>
