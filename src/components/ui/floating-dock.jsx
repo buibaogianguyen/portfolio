@@ -51,12 +51,15 @@ const FloatingDockMobile = ({
                   },
                 }}
                 transition={{ delay: (items.length - 1 - idx) * 0.05 }}>
-                <a
-                  href={item.href}
-                  key={item.title}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1DE9B6]">
+                <button
+                  onClick={() => {
+                    const section = document.querySelector(item.href);
+                    if (section) section.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1DE9B6]"
+                >
                   <div className="h-4 w-4">{item.icon}</div>
-                </a>
+                </button>
               </motion.div>
             ))}
           </motion.div>

@@ -10,6 +10,7 @@ import { BackgroundLines } from './components/ui/background-lines';
 import { motion } from 'framer-motion';
 
 import StarBackground from './components/StarBackground';
+import Rocket from './components/Rocket'
 
 import About from './About';
 import Experience from './Experience';
@@ -57,6 +58,10 @@ function App() {
 
                     <StarBackground />
 
+                    <Rocket />
+
+                    
+
                     <section id="home">
                         <Hero />
                     </section>
@@ -80,6 +85,7 @@ function App() {
                         desktopClassName="hidden md:flex fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50"
                         mobileClassName="flex md:hidden fixed bottom-8 right-4 z-50"
                     />
+
                     
                     <footer className="w-full text-center py-4 mt-8 pb-50 text-sm text-gray-400">
                     © {new Date().getFullYear()} Nguyen Bui's Portfolio — UI powered by Aceternity

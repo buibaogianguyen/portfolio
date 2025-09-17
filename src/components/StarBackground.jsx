@@ -8,7 +8,7 @@ function StarBackground() {
                 <Stars
                 radius={20}
                 depth={50}
-                count={12000}
+                count={7000}
                 factor={4}
                 saturation={0}
                 fade
