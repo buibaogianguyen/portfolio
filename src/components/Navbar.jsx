@@ -37,7 +37,7 @@ const Navbar = () => {
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <IoMdClose size={40}/> : <MdMenu size={40} />}
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-[#000000] bg-[#1E1E1E] text-[#1DE9B6] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed left-0 z-50 top-0 w-[60%] h-full border-r border-r-[#000000] bg-[#1E1E1E] text-[#1DE9B6] ease-in-out duration-500' : 'fixed left-[-100%]'}>
           <h1 className='w-full text-3xl font-bold text-[#1DE9B6] m-4'>nguyenbui.dev</h1>
           <ul className='p-4'>
               <li className='w-9/10 p-4 border-b mx-auto flex items-center gap-2'>
